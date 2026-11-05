@@ -1,0 +1,241 @@
+{
+  "as_of": "2026-11-04",
+  "notes": "Hand-curated local cost inputs for Groundwork. Every number has a source in its 'sources' list. null = not found from a citable source. Liquor fees: TX MB is a two-year fee; Chicago and Illinois license terms flagged in notes. workers_comp_per_100 is a national restaurant average (estimate) applied to every state; workers_comp_state_cost_index is a relative index (1.00 = median state), not a price.",
+  "states": {
+    "CO": {
+      "min_wage": 15.16,
+      "tipped_cash_wage": 12.14,
+      "suta_new_employer_rate_pct": 3.05,
+      "suta_wage_base": 30600,
+      "workers_comp_per_100": 1.06,
+      "workers_comp_state_cost_index": 0.83,
+      "liquor": {
+        "full_license_name": "Hotel & Restaurant liquor license",
+        "full_state_fee": 1600,
+        "full_local_fee": 75,
+        "quota_state": false,
+        "secondary_market_price": null,
+        "beer_wine_name": "Beer & Wine license",
+        "beer_wine_fee": null
+      },
+      "sources": [
+        {"field": "min_wage", "url": "https://news.bloombergtax.com/payroll/colorado-confirms-minimum-wage-rising-to-15-16-for-2026", "published": "2025-12", "note": "CDLE confirmed $15.16 effective 2026-01-01 (also Axios Denver 2025-12-17)."},
+        {"field": "tipped_cash_wage", "url": "https://www.axios.com/local/denver/2025/12/17/minimum-wage-2026-colorado-denver", "published": "2025-12-17", "note": "$15.16 minus $3.02 tip credit = $12.14."},
+        {"field": "suta_new_employer_rate_pct", "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/", "published": "2025-12-29", "note": "3.05% = 1.53% base + 0.17% support + 1.35% solvency surcharge. Payroll-vendor table; confirm with CDLE."},
+        {"field": "suta_wage_base", "url": "https://taxnews.ey.com/news/2026-0124", "published": "2026-01-06", "note": "EY 2026 SUI wage bases: CO $30,600."},
+        {"field": "workers_comp_per_100", "url": "https://www.1800insurance.com/guides/workers-comp-for-restaurant", "published": "2026-01-31", "note": "ESTIMATE. National restaurant average $1.06 per $100 payroll (2025); not Colorado-specific. NCCI states classify full-service as 9082 (not 9079). CO DOI approved -6.9% avg loss cost change for 2026."},
+        {"field": "workers_comp_state_cost_index", "url": "https://workerscompcost.com/states/colorado/restaurant-noc-9082/", "published": "2026-06-27", "note": "Modeled relative index 0.83 (17% below median state). Not a price."},
+        {"field": "liquor.full_state_fee", "url": "https://sbg.colorado.gov/sites/sbg/files/documents/DR8404_12.9.2025.pdf", "published": "2025-12-09", "note": "State form DR 8404 (via search snippet; PDF blocked automated fetch): $500 state H&R license fee + $1,100 new-application fee = $1,600 first year. Note C.R.S. 44-3-501 lists $75; the form figure is used as the current amount."},
+        {"field": "liquor.full_local_fee", "url": "https://cityoflonetree.com/wp-content/uploads/2025/12/3.-Liquor-Tobacco-Massage-Facility-License-Fees-2026.pdf", "published": "2026-01-01", "note": "Statewide local license fee for H&R is $75 (B&W $48.75). Cities also charge a local application fee (Lone Tree: $1,000 new). Denver's own application fee was not found from an official source."},
+        {"field": "liquor.beer_wine_fee", "url": "https://cityoflonetree.com/wp-content/uploads/2025/12/3.-Liquor-Tobacco-Massage-Facility-License-Fees-2026.pdf", "published": "2026-01-01", "note": "null: only the $48.75 local portion was found; state B&W fee on the current DR 8404 not confirmed."}
+      ]
+    },
+    "TX": {
+      "min_wage": 7.25,
+      "tipped_cash_wage": 2.13,
+      "suta_new_employer_rate_pct": 2.7,
+      "suta_wage_base": 9000,
+      "workers_comp_per_100": 1.06,
+      "workers_comp_state_cost_index": 0.74,
+      "liquor": {
+        "full_license_name": "Mixed Beverage Permit (MB) + Food and Beverage Certificate (FB)",
+        "full_state_fee": 6400,
+        "full_local_fee": 0,
+        "quota_state": false,
+        "secondary_market_price": null,
+        "beer_wine_name": "Wine and Malt Beverage Retailer's Permit (BG)",
+        "beer_wine_fee": 1900
+      },
+      "sources": [
+        {"field": "min_wage", "url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "published": "2026", "note": "Texas follows federal $7.25 / $2.13 tipped cash wage (no state increase). Federal figures are statutory, unchanged since 2009."},
+        {"field": "suta_new_employer_rate_pct", "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/", "published": "2025-12-29", "note": "2.70% new employer rate."},
+        {"field": "suta_wage_base", "url": "https://taxnews.ey.com/news/2026-0124", "published": "2026-01-06", "note": "$9,000."},
+        {"field": "workers_comp_per_100", "url": "https://www.1800insurance.com/guides/workers-comp-for-restaurant", "published": "2026-01-31", "note": "ESTIMATE. National $1.06/$100. Texas uses class 9079 Restaurant NOC; WC coverage is optional for TX private employers."},
+        {"field": "workers_comp_state_cost_index", "url": "https://workerscompcost.com/states/texas/restaurant-noc-9082/", "published": "2026-06-27", "note": "Relative index 0.74 (rank 2 of 47 cheapest). Not a price."},
+        {"field": "liquor.full_state_fee", "url": "https://www.tabc.texas.gov/static/sites/default/files/2021-08/tabc-sept-2021-two-year-licensing-fees.pdf", "published": "2021-09-01", "note": "TWO-YEAR fees: MB $5,300 original ($2,650 renewal) + FB certificate $1,100 = $6,400. Latest official TABC schedule found; secondary sites repeat it for 2026."},
+        {"field": "liquor.full_local_fee", "url": "https://www.tabc.texas.gov/static/sites/default/files/2021-08/tabc-sept-2021-maximum-local-fees.pdf", "published": "2021-09-01", "note": "Original MB permit is exempt from local fees (Alc. Bev. Code 11.38(d)); local fee up to $1,125 at 1st renewal."},
+        {"field": "liquor.beer_wine_fee", "url": "https://www.tabc.texas.gov/static/sites/default/files/2021-08/tabc-sept-2021-two-year-licensing-fees.pdf", "published": "2021-09-01", "note": "BG $1,900 two-year state fee; Travis County local max $175 (two-year)."}
+      ]
+    },
+    "AZ": {
+      "min_wage": 15.15,
+      "tipped_cash_wage": 12.15,
+      "suta_new_employer_rate_pct": 2.0,
+      "suta_wage_base": 8000,
+      "workers_comp_per_100": 1.06,
+      "workers_comp_state_cost_index": 0.86,
+      "liquor": {
+        "full_license_name": "Series 12 Restaurant license (non-quota; requires 40%+ of gross from food)",
+        "full_state_fee": 1600,
+        "full_local_fee": 1625,
+        "quota_state": true,
+        "secondary_market_price": 94650,
+        "beer_wine_name": "Series 12 covers beer/wine/spirits; Series 7 Beer & Wine Bar is quota/transferable",
+        "beer_wine_fee": 1600
+      },
+      "sources": [
+        {"field": "min_wage", "url": "https://news.bloombergtax.com/payroll/arizona-confirms-minimum-wage-rising-to-15-15-for-2026", "published": "2025-10", "note": "Industrial Commission of Arizona: $15.15 from 2026-01-01; tipped $12.15 ($3 max tip credit)."},
+        {"field": "suta_new_employer_rate_pct", "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/", "published": "2025-12-29", "note": "2.00% new employer rate. Confirm with AZ DES."},
+        {"field": "suta_wage_base", "url": "https://taxnews.ey.com/news/2026-0124", "published": "2026-01-06", "note": "$8,000."},
+        {"field": "workers_comp_per_100", "url": "https://www.1800insurance.com/guides/workers-comp-for-restaurant", "published": "2026-01-31", "note": "ESTIMATE. National $1.06/$100; AZ is NCCI, full-service class 9082."},
+        {"field": "workers_comp_state_cost_index", "url": "https://workerscompcost.com/states/arizona/restaurant-noc-9082/", "published": "2026-06-27", "note": "Relative index 0.86. Not a price."},
+        {"field": "liquor.full_state_fee", "url": "https://www.azleg.gov/ars/4/00209.htm", "published": "current statute (accessed 2026-11-04)", "note": "A.R.S. 4-209: Series 12 $100 application + $1,500 issuance = $1,600; annual renewal $585. Third-party sites quote $2,100, which does not match statute."},
+        {"field": "liquor.full_local_fee", "url": "https://phoenix.municipal.codes/CC/6-5", "published": "current code (accessed 2026-11-04)", "note": "City of Phoenix: $1,625 nonrefundable original-license application fee (City Clerk overview cites $1,455-$1,625), plus Series 12 city license fee $360 payable quarterly ($1,440/yr) per City Clerk fee schedule."},
+        {"field": "liquor.quota_state", "url": "https://liquorlicensecost.com/guides/arizona-bar-license-cost", "published": "2026", "note": "Series 6 (bar) and Series 7 are quota and trade on a secondary market; Series 12 restaurant is non-quota and non-transferable, so a restaurant usually does NOT need the secondary market."},
+        {"field": "liquor.secondary_market_price", "url": "https://www.phoenixnewtimes.com/food-drink/the-arizona-bar-industry-held-a-protest-at-the-state-capitol-heres-why-11488466/", "published": "unknown (article date not shown)", "note": "Average Series 6 price in Maricopa County $94,650 quoted from DLLC staff. Aggregator ranges for metro Phoenix $80k-$150k (liquorlicensecost.com, 2026). Low confidence on recency."},
+        {"field": "liquor.beer_wine_fee", "url": "https://www.azleg.gov/ars/4/00209.htm", "published": "current statute", "note": "No cheaper restaurant beer/wine-only license; Series 12 itself is $1,600. Series 7 state fees $100 + $1,500 + $175/yr renewal but it's a quota bar license (secondary price $34k-$55k per liquorlicensecost.com Goodyear page)."}
+      ]
+    },
+    "TN": {
+      "min_wage": 7.25,
+      "tipped_cash_wage": 2.13,
+      "suta_new_employer_rate_pct": 2.7,
+      "suta_wage_base": 7000,
+      "workers_comp_per_100": 1.06,
+      "workers_comp_state_cost_index": 0.89,
+      "liquor": {
+        "full_license_name": "Restaurant Liquor-by-the-Drink (LBD) license (TABC) + local beer permit",
+        "full_state_fee": 1050,
+        "full_local_fee": 350,
+        "quota_state": false,
+        "secondary_market_price": null,
+        "beer_wine_name": "Restaurant Wine Only (LBD) + Metro beer permit",
+        "beer_wine_fee": 570
+      },
+      "sources": [
+        {"field": "min_wage", "url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "published": "2026", "note": "Tennessee has no state minimum wage law; federal $7.25 / $2.13 tipped cash wage applies."},
+        {"field": "suta_new_employer_rate_pct", "url": "https://news.bloombergtax.com/payroll/tennessee-new-employer-unemployment-insurance-rate-remains-2-7", "published": "2026", "note": "New employer rate 2.7%."},
+        {"field": "suta_wage_base", "url": "https://taxnews.ey.com/news/2026-0124", "published": "2026-01-06", "note": "$7,000 for 2026 (trust fund > $1B). Eddy table lists $9,000; EY and FirstHR say $7,000. Using EY."},
+        {"field": "workers_comp_per_100", "url": "https://www.1800insurance.com/guides/workers-comp-for-restaurant", "published": "2026-01-31", "note": "ESTIMATE. National $1.06/$100; TN is NCCI, class 9082."},
+        {"field": "workers_comp_state_cost_index", "url": "https://workerscompcost.com/states/tennessee/restaurant-noc-9082/", "published": "2026-06-27", "note": "Relative index 0.89. Not a price."},
+        {"field": "liquor.full_state_fee", "url": "https://www.tn.gov/abc/public-information-and-forms/fees.html", "published": "undated (accessed 2026-11-04)", "note": "Restaurant LBD fee by seats: $650 (40-74), $750 (75-125, used here), up to $1,200 (276+); plus $300 application fee = $1,050."},
+        {"field": "liquor.full_local_fee", "url": "https://legisarchive.nashville.gov/mc/ordinances/term_1995_1999/o99_1794.htm", "published": "1999-08-03 (ordinance; still cited 2026)", "note": "Metro Nashville beer permit: $250 application + $100 annual privilege tax = $350. Metro also levies an on-premises LBD privilege tax tiered by seats (e.g., $600 for 75-125 seats per nashville.gov Finance) - not included here."},
+        {"field": "liquor.beer_wine_fee", "url": "https://www.tn.gov/abc/public-information-and-forms/fees.html", "published": "undated", "note": "Wine-only restaurant $270 (40-125 seats) + $300 application = $570 state; beer permit $350 is separate (local)."}
+      ]
+    },
+    "IL": {
+      "min_wage": 15.0,
+      "tipped_cash_wage": 9.0,
+      "suta_new_employer_rate_pct": 3.35,
+      "suta_wage_base": 14250,
+      "workers_comp_per_100": 1.06,
+      "workers_comp_state_cost_index": 1.12,
+      "liquor": {
+        "full_license_name": "State Retailer's License (ILCC) + local license (Chicago: Consumption on Premises - Incidental Activity)",
+        "full_state_fee": 750,
+        "full_local_fee": 4400,
+        "quota_state": false,
+        "secondary_market_price": null,
+        "beer_wine_name": null,
+        "beer_wine_fee": null
+      },
+      "sources": [
+        {"field": "min_wage", "url": "https://www.hivedesk.com/compliance/united-states/minimum-wage-illinois", "published": "2026", "note": "$15.00 since 2025-01-01; no further statewide step scheduled. Tipped cash wage 60% = $9.00."},
+        {"field": "suta_new_employer_rate_pct", "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/", "published": "2025-12-29", "note": "3.35% (includes fund-building rate). Some sectors differ (NAICS 56: 3.45%)."},
+        {"field": "suta_wage_base", "url": "https://news.bloombergtax.com/payroll/illinois-releases-2026-unemployment-insurance-tax-rates", "published": "2025-12", "note": "$14,250 for 2026 (EY 2026-01-06 agrees). Some third-party sites list $13,590."},
+        {"field": "workers_comp_per_100", "url": "https://www.1800insurance.com/guides/workers-comp-for-restaurant", "published": "2026-01-31", "note": "ESTIMATE. National $1.06/$100; an aggregator cites ~$1.22 for IL restaurants (unverified)."},
+        {"field": "workers_comp_state_cost_index", "url": "https://workerscompcost.com/states/illinois/restaurant-noc-9082/", "published": "2026-06-27", "note": "Relative index 1.12 (rank 40 of 47, i.e., more expensive). Not a price."},
+        {"field": "liquor.full_state_fee", "url": "https://ilcc.illinois.gov/content/dam/soi/en/web/ilcc/sitecollectiondocuments/retailer-application.pdf", "published": "current form (accessed 2026-11-04)", "note": "ILCC retailer application lists $750. Term (annual vs. two-year) not confirmed."},
+        {"field": "liquor.full_local_fee", "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2609232", "published": "current code (accessed 2026-11-04)", "note": "Chicago 'Consumption on premises - incidental activity' $4,400 (Chicago liquor licenses are two-year term; 2021 BACP guide gives same figure)."},
+        {"field": "liquor.beer_wine_fee", "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2609232", "published": "current code", "note": "null: no cheaper beer/wine-only restaurant license found at state or Chicago level."}
+      ]
+    }
+  },
+  "cities": {
+    "Denver, CO": {
+      "cbsa_name": "Denver-Aurora-Centennial, CO",
+      "state": "CO",
+      "min_wage": 19.29,
+      "tipped_cash_wage": 16.27,
+      "retail_rent_nnn": 27.44,
+      "restaurant_rent_range": null,
+      "cam_nnn": null,
+      "buildout_per_sqft": [275, 475],
+      "food_license_fee": 375,
+      "sources": [
+        {"field": "min_wage", "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Finance/News/2025/Denver-Local-Minimum-Wage-Adjusts-to-19.29-per-Hour-for-2026", "published": "2025", "note": "Denver local minimum wage $19.29 from 2026-01-01; tipped food & beverage $16.27 ($3.02 credit)."},
+        {"field": "retail_rent_nnn", "url": "https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Denver-CO-Retail.pdf", "published": "2026-10", "note": "Lee & Associates Q3 2026 avg NNN asking $27.44/SF/yr (vacancy 4.5%). CBRE Q2 2026 reports $20.63 net (different methodology)."},
+        {"field": "restaurant_rent_range", "url": null, "published": null, "note": "null: no 2025-26 broker report found with a restaurant/2nd-gen rent range for Denver."},
+        {"field": "cam_nnn", "url": null, "published": null, "note": "null: no market-level NNN charge (tax+insurance+CAM) figure found. Only generic blog range $4-$12/SF (warecre.com), not used."},
+        {"field": "buildout_per_sqft", "url": "https://terrapincg.com/news/high-end-restaurant-construction-cost-per-square-foot", "published": "2026-07", "note": "Contractor guide (high-end focus), Mountain West group (Denver/Phoenix/SLC) build-out $275-$475/SF excl. FF&E and soft costs; 2nd-gen space $125-$250/SF."},
+        {"field": "food_license_fee", "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Business-Licensing/Business-licenses/Retail-Food/Retail-food/New", "published": "undated (accessed 2026-11-04)", "note": "Retail food license: $150 application + $25 per food-processing activity (9 activities, max $225/yr). 375 = maximum first-year cost; a full-service kitchen typically triggers most activities."}
+      ]
+    },
+    "Austin, TX": {
+      "cbsa_name": "Austin-Round Rock-San Marcos, TX",
+      "state": "TX",
+      "min_wage": 7.25,
+      "tipped_cash_wage": 2.13,
+      "retail_rent_nnn": 31.79,
+      "restaurant_rent_range": null,
+      "cam_nnn": null,
+      "buildout_per_sqft": [200, 375],
+      "food_license_fee": 927,
+      "sources": [
+        {"field": "min_wage", "url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "published": "2026", "note": "No city minimum wage; Texas law preempts local private-sector minimum wages. Follows state/federal $7.25 / $2.13."},
+        {"field": "retail_rent_nnn", "url": "https://www.matthews.com/insights/austin-retail-q3-2026", "published": "2026-10-28", "note": "Matthews Q3 2026 avg asking rent $31.79/SF (CoStar-based, NNN basis not stated; Matthews' Nashville figure matched Lee's NNN figure within 1%). Partners Real Estate Q1 2026: $26.40; Transwestern Q1 2026: $27.21 net. Medium confidence."},
+        {"field": "restaurant_rent_range", "url": null, "published": null, "note": "null: not found in broker reports."},
+        {"field": "cam_nnn", "url": null, "published": null, "note": "null: not found."},
+        {"field": "buildout_per_sqft", "url": "https://terrapincg.com/news/high-end-restaurant-construction-cost-per-square-foot", "published": "2026-07", "note": "Texas group (Austin/Dallas/Houston) build-out $200-$375/SF; contractor guide."},
+        {"field": "food_license_fee", "url": "https://www.austintexas.gov/health/permit-fee-schedule", "published": "effective 2026-11-01", "note": "Austin Public Health Food Enterprise annual permit, risk 3A (>= $150k sales): $927. Pre-opening inspection ($178) and plan review ($312) extra per FY2026 schedule."}
+      ]
+    },
+    "Phoenix, AZ": {
+      "cbsa_name": "Phoenix-Mesa-Chandler, AZ",
+      "state": "AZ",
+      "min_wage": 15.15,
+      "tipped_cash_wage": 12.15,
+      "retail_rent_nnn": 19.56,
+      "restaurant_rent_range": null,
+      "cam_nnn": null,
+      "buildout_per_sqft": [275, 475],
+      "food_license_fee": 1015,
+      "sources": [
+        {"field": "min_wage", "url": "https://news.bloombergtax.com/payroll/arizona-confirms-minimum-wage-rising-to-15-15-for-2026", "published": "2025-10", "note": "Phoenix has no local minimum wage (only Flagstaff and Tucson do); state $15.15 / $12.15 applies."},
+        {"field": "retail_rent_nnn", "url": "https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Metro-Phoenix-AZ-Retail.pdf", "published": "2026-10", "note": "Lee & Associates Q3 2026 avg NNN asking $19.56/SF (vacancy 5.2%). CBRE Q3 2026 net asking $20.43."},
+        {"field": "restaurant_rent_range", "url": null, "published": null, "note": "null: not found."},
+        {"field": "cam_nnn", "url": null, "published": null, "note": "null: not found."},
+        {"field": "buildout_per_sqft", "url": "https://terrapincg.com/news/high-end-restaurant-construction-cost-per-square-foot", "published": "2026-07", "note": "Mountain West group $275-$475/SF; contractor guide."},
+        {"field": "food_license_fee", "url": "https://www.maricopa.gov/DocumentCenter/View/122612/ES-2025-004-Fee-Summary-PDF", "published": "2026 (Board approval 2026-08-19)", "note": "Maricopa County Environmental Services 'E&D 10+ Seating - Class 4' annual permit: new fee $1,015 (was $1,030). Plan review for 10+ seats $885 extra. Full-service cooking raw animal foods = Class 4 per county workshop minutes."}
+      ]
+    },
+    "Nashville, TN": {
+      "cbsa_name": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+      "state": "TN",
+      "min_wage": 7.25,
+      "tipped_cash_wage": 2.13,
+      "retail_rent_nnn": 31.35,
+      "restaurant_rent_range": null,
+      "cam_nnn": null,
+      "buildout_per_sqft": [250, 450],
+      "food_license_fee": null,
+      "sources": [
+        {"field": "min_wage", "url": "https://www.dol.gov/agencies/whd/minimum-wage/state", "published": "2026", "note": "No city minimum wage (state preemption); federal $7.25 / $2.13 applies."},
+        {"field": "retail_rent_nnn", "url": "https://www.lee-associates.com/wp-content/uploads/2026/10/2026-Q3-Nashville-TN-Retail.pdf", "published": "2026-10", "note": "Lee & Associates Q3 2026 avg NNN asking $31.35/SF (vacancy 3.3%); Matthews Q3 2026: $31.54 (record)."},
+        {"field": "restaurant_rent_range", "url": null, "published": null, "note": "null: not found."},
+        {"field": "cam_nnn", "url": null, "published": null, "note": "null: not found."},
+        {"field": "buildout_per_sqft", "url": "https://terrapincg.com/news/high-end-restaurant-construction-cost-per-square-foot", "published": "2026-07", "note": "Southeast group (Nashville/Miami/Atlanta) $250-$450/SF; contractor guide."},
+        {"field": "food_license_fee", "url": "https://law.justia.com/codes/tennessee/2018/title-68/health/chapter-14/part-7/section-68-14-713/", "published": "2018 code", "note": "null: Tenn. Code 68-14-713 versions conflict ($210/$360 by seats in 2018 text vs $50/$80 in 2019 text) and Metro Public Health's own fee was not found."}
+      ]
+    },
+    "Chicago, IL": {
+      "cbsa_name": "Chicago-Naperville-Elgin, IL-IN",
+      "state": "IL",
+      "min_wage": 17.05,
+      "tipped_cash_wage": 12.96,
+      "retail_rent_nnn": 22.79,
+      "restaurant_rent_range": null,
+      "cam_nnn": null,
+      "buildout_per_sqft": [250, 425],
+      "food_license_fee": 1110,
+      "sources": [
+        {"field": "min_wage", "url": "https://abc7chicago.com/post/illinois-minimum-wage-chicago-cook-county-increases-take-effect-wednesday/19427463/", "published": "2026-06-30", "note": "Chicago (4+ employees) $17.05 from 2026-07-01; tipped $12.96 (24% credit; 2026 amendments slowed the One Fair Wage phase-out per Littler/Bloomberg Gov). Full phase-out timing now uncertain."},
+        {"field": "retail_rent_nnn", "url": "https://www.matthews.com/insights/chicago-retail-q3-2026", "published": "2026-10-28", "note": "Matthews Q3 2026 avg asking $22.79/SF (record; CoStar-based, basis not stated). Lee Q3 2025 NNN $21.86; Avison Young Q2 2026 $22.73."},
+        {"field": "restaurant_rent_range", "url": null, "published": null, "note": "null: not found."},
+        {"field": "cam_nnn", "url": null, "published": null, "note": "null: not found."},
+        {"field": "buildout_per_sqft", "url": "https://terrapincg.com/news/high-end-restaurant-construction-cost-per-square-foot", "published": "2026-07", "note": "Midwest group (Chicago/Minneapolis) $250-$425/SF; contractor guide. National full-service casual $320-$450/SF per Buildermuse 2026-04-10."},
+        {"field": "food_license_fee", "url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2609232", "published": "current code (accessed 2026-11-04)", "note": "Chicago Retail Food Establishment license, TWO-YEAR term, by sq ft: $660 (0-1,000), $940 (1,001-2,500), $1,110 (2,501-4,500, used here), $1,320 (4,501-10,000), $1,650 (10,000+)."}
+      ]
+    }
+  }
+}

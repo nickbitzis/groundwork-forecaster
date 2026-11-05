@@ -1,0 +1,91 @@
+import type { BusinessTemplate } from './common';
+import { COMMON_BENCHMARKS, DEFAULT_DOWNSIDE, SEASONALITY_OUTDOOR, role, volume } from './common';
+
+export const foodTruck: BusinessTemplate = {
+  id: 'food-truck',
+  name: 'Food truck',
+  tagline: 'Street service, lots and breweries, plus catering',
+  unitWord: 'customers',
+  ticketWord: 'order',
+  benchmarks: {
+    ...COMMON_BENCHMARKS,
+    'stream.cogsPct': 'Food trucks usually run 28% to 35% food and packaging cost',
+    'stream.channelFeePct': 'Lots, breweries and festivals often take 10% to 20% of sales',
+    'stream.ticket': 'Food truck orders commonly run $12 to $20',
+    'volume.transactionsPerDay': 'A busy service runs 75 to 150 orders; a slow one under 50',
+    'volume.eventsPerWeek': 'Catering and private events are higher margin and fill slow weekdays',
+    'ramp.startPct': 'Trucks often start near 50% to 60% while finding their best spots',
+    'ramp.monthsToSteady': '3 to 6 months to lock in a regular route',
+    'labor.total': 'Owner-operated trucks keep paid labor near 25% to 30% of sales',
+    'occupancy.total': 'Commissary and parking usually run $400 to $1,500 a month',
+  },
+  defaults: {
+    version: 1,
+    templateId: 'food-truck',
+    businessName: 'My Food Truck',
+    openingMonth: '2027-04',
+    streams: [
+      {
+        id: 'street', name: 'Street service', note: 'Regular stops, lots, breweries, office parks',
+        ticketMode: 'buildup', avgTicket: 16,
+        items: [
+          { id: 'main', name: 'Main item', price: 13, perTicket: 1 },
+          { id: 'side', name: 'Side', price: 5, perTicket: 0.4 },
+          { id: 'drink', name: 'Drink', price: 3, perTicket: 0.5 },
+        ],
+        volume: volume({ method: 'transactions', transactionsPerDay: 90, daysOpenPerWeek: 5 }),
+        cogsPct: 30, channelFeePct: 6,
+      },
+      {
+        id: 'catering', name: 'Catering and private events', note: 'Weddings, corporate lunches, parties',
+        ticketMode: 'simple', avgTicket: 16, items: [],
+        volume: volume({ method: 'events', eventsPerWeek: 1, guestsPerEvent: 75, daysOpenPerWeek: 5 }),
+        cogsPct: 32, channelFeePct: 0,
+      },
+    ],
+    ramp: { startPct: 55, monthsToSteady: 5, curve: 'linear' },
+    growth: { annualPriceIncreasePct: 3, annualVolumeGrowthPct: 3 },
+    seasonality: SEASONALITY_OUTDOOR,
+    labor: {
+      roles: [
+        role({ id: 'lead', title: 'Lead cook', payType: 'hourly', hourlyWage: 19, hoursPerWeek: 40, flexWithVolume: false }),
+        role({ id: 'crew', title: 'Cook and cashier', count: 2, payType: 'hourly', hourlyWage: 16, hoursPerWeek: 32 }),
+      ],
+      payrollBurdenPct: 15, minFlexPct: 60, annualWageIncreasePct: 3,
+    },
+    occupancy: { rentLabel: 'Commissary kitchen', baseRent: 900, otherLabel: 'Parking and storage', otherOccupancy: 300, annualEscalationPct: 3, freeRentMonths: 0 },
+    opex: {
+      annualInflationPct: 3,
+      lines: [
+        { id: 'fuel', name: 'Fuel, propane and generator', kind: 'fixed', amount: 1200 },
+        { id: 'cards', name: 'Card processing', kind: 'pctRevenue', amount: 2.9 },
+        { id: 'truck-rm', name: 'Truck repairs and maintenance', kind: 'pctRevenue', amount: 1.5, note: 'Engines and generators both need upkeep' },
+        { id: 'packaging', name: 'Packaging and supplies', kind: 'pctRevenue', amount: 4 },
+        { id: 'marketing', name: 'Marketing and social media', kind: 'pctRevenue', amount: 2 },
+        { id: 'insurance', name: 'Insurance (auto, liability)', kind: 'fixed', amount: 450 },
+        { id: 'permits', name: 'Permits and health inspections', kind: 'fixed', amount: 250 },
+        { id: 'tech', name: 'POS and software', kind: 'fixed', amount: 150 },
+        { id: 'pro', name: 'Accounting and payroll service', kind: 'fixed', amount: 300 },
+        { id: 'misc', name: 'Miscellaneous', kind: 'pctRevenue', amount: 1 },
+      ],
+    },
+    startup: {
+      contingencyPct: 10,
+      lines: [
+        { id: 'truck', name: 'Truck and kitchen build-out', amount: 120000, depreciationYears: 7 },
+        { id: 'equipment', name: 'Extra cooking equipment', amount: 12000, depreciationYears: 7 },
+        { id: 'wrap', name: 'Wrap and branding', amount: 6000, depreciationYears: 5 },
+        { id: 'pos', name: 'POS and tablets', amount: 2000, depreciationYears: 5 },
+        { id: 'licenses', name: 'Licenses and permits', amount: 4000, depreciationYears: 0 },
+        { id: 'inventory', name: 'Opening food and packaging', amount: 4000, depreciationYears: 0 },
+        { id: 'preopen-payroll', name: 'Pre-opening payroll and training', amount: 5000, depreciationYears: 0 },
+        { id: 'launch', name: 'Launch marketing', amount: 3000, depreciationYears: 0 },
+        { id: 'fees', name: 'Legal, accounting and loan fees', amount: 3000, depreciationYears: 0 },
+        { id: 'wc', name: 'Working capital reserve (cash on hand)', amount: 25000, depreciationYears: 0, isWorkingCapital: true },
+      ],
+    },
+    financing: { interestRatePct: 11, termYears: 7, interestOnlyMonths: 0 },
+    owner: { monthlyDraw: 0 },
+    downside: DEFAULT_DOWNSIDE,
+  },
+};

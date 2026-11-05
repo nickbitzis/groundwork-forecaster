@@ -1,0 +1,2074 @@
+{
+ "as_of": "2026-11-04",
+ "states": {
+  "AK": {
+   "min_wage": 14.0,
+   "tipped_cash_wage": 14.0,
+   "suta_new_employer_rate_pct": 1.0,
+   "suta_wage_base": 54200,
+   "notes": "Min wage rose $13->$14 on 2026-07-01. No tip credit. SUI rate is Accommodation & Food Services (NAICS 72) employer rate; employees also pay 0.5%.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://labor.alaska.gov/estax/2026-industry-rates.html",
+     "published": "2026"
+    }
+   ]
+  },
+  "AL": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 8000,
+   "notes": "No state minimum wage law; federal applies.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "AR": {
+   "min_wage": 11.0,
+   "tipped_cash_wage": 2.63,
+   "suta_new_employer_rate_pct": 2.0,
+   "suta_wage_base": 7000,
+   "notes": "Min wage for employers with 4+ employees. SUI: Eddy/Teamed 2.0% (incl. stabilization tax); DOL lists 1.8% base.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "AZ": {
+   "min_wage": 15.15,
+   "tipped_cash_wage": 12.15,
+   "suta_new_employer_rate_pct": 2.0,
+   "suta_wage_base": 8000,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "CA": {
+   "min_wage": 16.9,
+   "tipped_cash_wage": 16.9,
+   "suta_new_employer_rate_pct": 3.4,
+   "suta_wage_base": 7000,
+   "notes": "No tip credit. Some cities higher.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "CO": {
+   "min_wage": 15.16,
+   "tipped_cash_wage": 12.14,
+   "suta_new_employer_rate_pct": 3.05,
+   "suta_wage_base": 30600,
+   "notes": "SUI 3.05% all-in (1.53% base + 0.17% support + 1.35% bond surcharge per Eddy); DOL lists 1.53% base. Denver higher min wage.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "CT": {
+   "min_wage": 16.94,
+   "tipped_cash_wage": 6.38,
+   "suta_new_employer_rate_pct": 1.9,
+   "suta_wage_base": 27000,
+   "notes": "Tipped cash wage $6.38 for hotel/restaurant servers ($8.23 bartenders). DOL page lists tip credits ($10.56/$8.71), not cash wage.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://onpay.com/insights/minimum-wage-by-state-summary/connecticut/",
+     "published": "2026"
+    }
+   ]
+  },
+  "DC": {
+   "min_wage": 18.4,
+   "tipped_cash_wage": 10.3,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 9000,
+   "notes": "Min wage $17.95->$18.40 and tipped $10.00->$10.30 on 2026-07-01 (amended Initiative 82).",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2026%20Minimum%20Wage%20Increase%20Notice.pdf",
+     "published": "2026"
+    }
+   ]
+  },
+  "DE": {
+   "min_wage": 15.0,
+   "tipped_cash_wage": 2.23,
+   "suta_new_employer_rate_pct": 1.0,
+   "suta_wage_base": 14500,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "FL": {
+   "min_wage": 15.0,
+   "tipped_cash_wage": 11.98,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 7000,
+   "notes": "Min wage rose $14->$15 and tipped $10.98->$11.98 on 2026-09-30; DOL page (2026-07-01) still shows $14.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "min_wage",
+     "url": "https://www.lowndes-law.com/newsroom/insights/floridas-minimum-wage-reaches-15-00-on-september-30-2026",
+     "published": "2026"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.lowndes-law.com/newsroom/insights/floridas-minimum-wage-reaches-15-00-on-september-30-2026",
+     "published": "2026"
+    }
+   ]
+  },
+  "GA": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 9500,
+   "notes": "State min $5.15 below federal; 7.25 used. SUI 2.7% all-in (DOL lists 2.64% + 0.06% admin assessment).",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "HI": {
+   "min_wage": 16.0,
+   "tipped_cash_wage": 14.75,
+   "suta_new_employer_rate_pct": 2.4,
+   "suta_wage_base": 64500,
+   "notes": "Tip credit $1.25 only if combined pay >= $7 above minimum.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "IA": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 4.35,
+   "suta_new_employer_rate_pct": 1.0,
+   "suta_wage_base": 20400,
+   "notes": "Wage base cut from 2025 level by law.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "ID": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 3.35,
+   "suta_new_employer_rate_pct": 1.0,
+   "suta_wage_base": 58300,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "IL": {
+   "min_wage": 15.0,
+   "tipped_cash_wage": 9.0,
+   "suta_new_employer_rate_pct": 3.35,
+   "suta_wage_base": 14250,
+   "notes": "SUI: Eddy/Teamed 3.35%; DOL Jan-2026 table lists 2.80% (sources disagree). Chicago higher min wage.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://ides.illinois.gov/content/dam/soi/en/web/ides/ides_forms_and_publications/EA-50_2026.pdf",
+     "published": "2026"
+    }
+   ]
+  },
+  "IN": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 2.5,
+   "suta_wage_base": 9500,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "KS": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 1.75,
+   "suta_wage_base": 15100,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "KY": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 12000,
+   "notes": "SUI non-construction new employer rate.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "LA": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": null,
+   "suta_wage_base": 7000,
+   "notes": "No state min wage law. SUI new-employer rate = industry average (DOL 'IndAvg'; ~1-6.2% band); restaurant rate not found.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "MA": {
+   "min_wage": 15.0,
+   "tipped_cash_wage": 6.75,
+   "suta_new_employer_rate_pct": 2.42,
+   "suta_wage_base": 15000,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "MD": {
+   "min_wage": 15.0,
+   "tipped_cash_wage": 3.63,
+   "suta_new_employer_rate_pct": 2.6,
+   "suta_wage_base": 8500,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "ME": {
+   "min_wage": 15.1,
+   "tipped_cash_wage": 7.55,
+   "suta_new_employer_rate_pct": 2.54,
+   "suta_wage_base": 12000,
+   "notes": "SUI: Eddy/Teamed 2.54% (likely incl. CSSF/UPAF); DOL lists 2.23% base (sources disagree).",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "MI": {
+   "min_wage": 13.73,
+   "tipped_cash_wage": 5.49,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 9000,
+   "notes": "Min wage rises to $15.00 on 2027-01-01; tipped rises toward 50% by 2031.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "MN": {
+   "min_wage": 11.41,
+   "tipped_cash_wage": 11.41,
+   "suta_new_employer_rate_pct": null,
+   "suta_wage_base": 44000,
+   "notes": "No tip credit. SUI new-employer rate set by industry (1-4.06% non-construction) + 0.4% base tax + 14% assessment; 2026 food-service rate not found (2022 table had 1.00%). Minneapolis/St Paul higher.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://news.bloombergtax.com/payroll/minnesota-releases-2026-unemployment-insurance-taxes-wage-base",
+     "published": "2026"
+    }
+   ]
+  },
+  "MO": {
+   "min_wage": 15.0,
+   "tipped_cash_wage": 7.5,
+   "suta_new_employer_rate_pct": 2.376,
+   "suta_wage_base": 9000,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "MS": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 1.0,
+   "suta_wage_base": 14000,
+   "notes": "No state min wage law.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "MT": {
+   "min_wage": 10.85,
+   "tipped_cash_wage": 10.85,
+   "suta_new_employer_rate_pct": 1.28,
+   "suta_wage_base": 47300,
+   "notes": "No tip credit (rate for businesses >$110k sales). SUI = Services industry 1.10% + 0.18% admin fund tax.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://uid.dli.mt.gov/_docs/contributions-bureau/Rate-Explanation.pdf",
+     "published": "2026"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://uid.dli.mt.gov/_docs/contributions-bureau/Rate-Explanation.pdf",
+     "published": "2026"
+    }
+   ]
+  },
+  "NC": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 1.0,
+   "suta_wage_base": 34200,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "ND": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 4.86,
+   "suta_new_employer_rate_pct": 1.0,
+   "suta_wage_base": 46600,
+   "notes": "SUI non-construction rate.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.jobsnd.com/sites/www/files/documents/jsnd-documents/uitaxrateschedules2026.pdf",
+     "published": "2026"
+    }
+   ]
+  },
+  "NE": {
+   "min_wage": 15.0,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 1.25,
+   "suta_wage_base": 9000,
+   "notes": "Min wage for 4+ employees. Wage base $24,000 for high-tax-group employers.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "NH": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 3.27,
+   "suta_new_employer_rate_pct": 1.7,
+   "suta_wage_base": 14000,
+   "notes": "SUI 2.7% less 1.0% trust-fund-balance reduction (DOL lists 2.7% base); reduction confirmed Q1-Q2 2026.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://jupid.com/payroll-tax-calculator/new-hampshire",
+     "published": "2026"
+    }
+   ]
+  },
+  "NJ": {
+   "min_wage": 15.92,
+   "tipped_cash_wage": 6.05,
+   "suta_new_employer_rate_pct": 2.8,
+   "suta_wage_base": 44800,
+   "notes": "$15.23 for employers <6 employees/seasonal. Employees also contribute to UI.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "NM": {
+   "min_wage": 12.0,
+   "tipped_cash_wage": 3.0,
+   "suta_new_employer_rate_pct": null,
+   "suta_wage_base": 34800,
+   "notes": "SUI new-employer rate = industry average (~1.0-1.28%); restaurant rate not found. Eddy lists wage base $30,600 (outdated; DOL/NM DWS say $34,800).",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "NV": {
+   "min_wage": 12.0,
+   "tipped_cash_wage": 12.0,
+   "suta_new_employer_rate_pct": 2.95,
+   "suta_wage_base": 43700,
+   "notes": "No tip credit.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "NY": {
+   "min_wage": 16.0,
+   "tipped_cash_wage": 10.7,
+   "suta_new_employer_rate_pct": 4.1,
+   "suta_wage_base": 17600,
+   "notes": "Rest-of-state rates shown; NYC/Long Island/Westchester $17.00 min, $11.35 food-service cash wage. SUI 4.025% + 0.075% Re-employment Service Fund.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://dol.ny.gov/node/6846",
+     "published": "2026"
+    }
+   ]
+  },
+  "OH": {
+   "min_wage": 11.0,
+   "tipped_cash_wage": 5.5,
+   "suta_new_employer_rate_pct": 2.85,
+   "suta_wage_base": 9000,
+   "notes": "Min wage for gross receipts >= $405k. SUI 2.85% all-in per Eddy/Teamed; DOL lists 2.7% base.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://dam.assets.ohio.gov/image/upload/jfs.ohio.gov/ouio/uctax/2026RateDetails.pdf",
+     "published": "2026"
+    }
+   ]
+  },
+  "OK": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 1.5,
+   "suta_wage_base": 25000,
+   "notes": "Wage base lowered from 2025.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "OR": {
+   "min_wage": 15.55,
+   "tipped_cash_wage": 15.55,
+   "suta_new_employer_rate_pct": 2.4,
+   "suta_wage_base": 56700,
+   "notes": "Standard rate since 2026-07-01; Portland metro $16.80, nonurban $14.55. No tip credit.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "PA": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.83,
+   "suta_new_employer_rate_pct": 3.822,
+   "suta_wage_base": 10000,
+   "notes": "Employees also pay UI on all wages.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "RI": {
+   "min_wage": 16.0,
+   "tipped_cash_wage": 3.89,
+   "suta_new_employer_rate_pct": 1.21,
+   "suta_wage_base": 30800,
+   "notes": "SUI 1.0% + 0.21% job development assessment (DOL lists 1.0%). Wage base $32,300 for highest-rate employers.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://dlt.ri.gov/press-releases/2026-tax-rates-unemployment-insurance-and-temporary-disability-insurance",
+     "published": "2026"
+    }
+   ]
+  },
+  "SC": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 1.06,
+   "suta_wage_base": 14000,
+   "notes": "No state min wage law. SUI 1.0% + 0.06% contingency assessment.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "SD": {
+   "min_wage": 11.85,
+   "tipped_cash_wage": 5.93,
+   "suta_new_employer_rate_pct": 1.2,
+   "suta_wage_base": 15000,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "TN": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 7000,
+   "notes": "No state min wage law. SUI rate year Jul-Jun; unchanged for rest of 2026. Eddy lists wage base $9,000 (conflicts with DOL/Teamed $7,000).",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "TX": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 9000,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "UT": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": null,
+   "suta_wage_base": 50700,
+   "notes": "SUI new-employer rate = industry average benefit ratio (DOL 'IndAvg'); third-party 1.2% or 1.1% not verifiable.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://jobs.utah.gov/ui/employer/Public/Questions/TaxRates.aspx",
+     "published": "2026"
+    }
+   ]
+  },
+  "VA": {
+   "min_wage": 12.77,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": 2.5,
+   "suta_wage_base": 8000,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "VT": {
+   "min_wage": 14.42,
+   "tipped_cash_wage": 7.21,
+   "suta_new_employer_rate_pct": 1.0,
+   "suta_wage_base": 15400,
+   "notes": "",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "WA": {
+   "min_wage": 17.13,
+   "tipped_cash_wage": 17.13,
+   "suta_new_employer_rate_pct": null,
+   "suta_wage_base": 78200,
+   "notes": "No tip credit. SUI new-employer rate = 115% of industry average (min 1%); 2026 food-service rate not found. Seattle and others higher.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "WI": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.33,
+   "suta_new_employer_rate_pct": 3.05,
+   "suta_wage_base": 14000,
+   "notes": "SUI 3.05% for taxable payroll < $500k (3.25% if >= $500k); DOL Jan-2026 table lists 2.5%.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "WV": {
+   "min_wage": 8.75,
+   "tipped_cash_wage": 2.62,
+   "suta_new_employer_rate_pct": 2.7,
+   "suta_wage_base": 9500,
+   "notes": "Min wage for employers with 6+ employees at one location.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    }
+   ]
+  },
+  "WY": {
+   "min_wage": 7.25,
+   "tipped_cash_wage": 2.13,
+   "suta_new_employer_rate_pct": null,
+   "suta_wage_base": 33800,
+   "notes": "State min $5.15 below federal; 7.25 used. SUI new-employer rate by industry (DOL 'IndAvg'); sources conflict (1.69% vs 2.28-9.78%), restaurant rate not found.",
+   "sources": [
+    {
+     "field": "min_wage",
+     "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "tipped_cash_wage",
+     "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+     "published": "2026-07-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://eddy.com/support/2026-new-employer-rates-and-sui-wage-base-limits/",
+     "published": "2025-12-29"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://oui.doleta.gov/unemploy/content/sigpros/2020-2029/January2026.pdf",
+     "published": "2026-01"
+    },
+    {
+     "field": "suta_wage_base",
+     "url": "https://www.teamed.global/employer-payroll-taxes-by-state",
+     "published": "2026-07-17"
+    },
+    {
+     "field": "suta_new_employer_rate_pct",
+     "url": "https://dws.wyo.gov/dws-division/unemployment-insurance/employers/unemployment-tax-rates/",
+     "published": "n/a"
+    }
+   ]
+  }
+ }
+}
